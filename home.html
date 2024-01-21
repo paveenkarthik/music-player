@@ -15,7 +15,7 @@
     <div class="sider">
         <div class="logo">
         <a href="#"> 
-            <img src="LOGO.png" alt="LOGO">
+            <img src="img/LOGO.png" alt="LOGO">
         </a>
         </div>
  
@@ -28,7 +28,7 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" onclick="showsearch()">
                 <i class='bx bxs-search-alt-2 icon'></i>
                 <span>SEARCH</span>
             </a>
@@ -71,8 +71,13 @@
     <div class="contain">
     <div class="top">
      <div class="front-back-button">
-      <button type="button"><i class='bx bx-skip-next icon'></i></button>
-      <button type="button"><i class='bx bx-skip-previous icon'></i></button>
+      <button type="button" id="bb"><i class='bx bx-skip-next icon'></i></button>
+      <button type="button" id="bbb"><i class='bx bx-skip-previous icon'></i></button>
+     </div>
+     <div class="search">
+        <i class='bx bxs-search-alt-2 icon'></i>
+        <input type="text" placeholder="search music" name="" id="search">
+
      </div>
      <div class="navbar">
         <ul>
@@ -100,10 +105,11 @@
     </div>
     </div>
 
+    <iframe src="" frameborder="0" id="mid"></iframe>
     <div class="sparky">
                   <h2>RETRO PLAYLIST:</h2>
                   <div class="list">
-                    <div class="music">
+                    <div class="music" onclick="openplay()">
                          <img src="img/ilayaraja2.jpg" alt="">
                         <div class="play">
                         <i class='bx bx-play icon'></i>
@@ -117,10 +123,18 @@
                         <div class="play">
                         <i class='bx bx-play icon'></i>
                         </div>
-                        <h4>SPB HITS</h4>
+                        <h4>SBP HITS</h4>
                         <!-- <p>widely regarded as the greatest Indian Singer of all-time by ...</p>          -->
                     </div>
                   
+                    <div class="music">
+                         <img src="img/arar.jpeg" alt="">
+                        <div class="play">
+                        <i class='bx bx-play icon'></i>
+                        </div>
+                        <h4>AR RAHUMAN HITS</h4>
+                        <!-- <p>widely regarded ROCKSTAR ...</p>          -->
+                    </div>
                     <div class="music">
                          <img src="img/ani.webp" alt="">
                         <div class="play">
@@ -337,5 +351,86 @@
                     
                   </div>
             </div>
+    <div class="sparky">
+                  <h2>ARTISTS:</h2>
+                  <div class="list1">
+                    <div class="music1">
+                        <img src="img/ani.webp" alt="">
+                       <div class="play">
+                       </div>
+                       <h4>ANIRUDH RAVICHANDER</h4>
+                   </div>
+                   <div class="music1">
+                    <img src="img/arar.jpeg" alt="">
+                   <div class="play">
+                   </div>
+                   <h4>A R RAHMAN</h4>
+                   </div>
+                   <div class="music1">
+                    <img src="img/spb.webp" alt="">
+                   <div class="play">
+                   </div>
+                   <h4>SBP</h4>
+                   </div>
+                   <div class="music1">
+                   <img src="img/ilayaraja2.jpg" alt="">
+                   <div class="play">
+                   </div>
+                   <h4>ILLAIYARAJA</h4>
+                   </div>
+                   <div class="music1">
+                    <img src="img/gv.jpg" alt="">
+                   <div class="play">
+                   </div>
+                   <h4>G V PRAKASHKUMAR</h4>
+                   </div>
+                   <div class="music1">
+                   <img src="img/viji antony.jpeg" alt="">
+                   <div class="play">
+                   </div>
+                   <h4>VIJAI ANTONY</h4>
+                   </div>
+                    <div class="music1">
+                         <img src="img/janaki.jpeg" alt="">
+                        <h4>JANAKI</h4>
+                    </div>
+                  
+                    <div class="music1">
+                         <img src="img/chitra.webp" alt="">
+                        
+                        <h4>CHITRA</h4>
+                    </div>
+                  
+                    <div class="music1">
+                         <img src="img/shreya.webp" alt="">
+                        <h4>SHREYA GOSHAL</h4>
+                    </div>
+                 
+                    <div class="music1">
+                         <img src="img/chinmayi.jpg" alt="">
+                        <h4>CHINMAYI</h4>
+                    </div>
+                    <div class="music1">
+                        <img src="img/sweths.cms" alt="">
+                       <h4>SWETHA MOHAN</h4>
+                   </div>
+                    <div class="music1">
+                         <img src="img/JONITA1.webp" alt="">
+                        <h4>JONNITA GANDHI</h4>
+                    </div>
+                  </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            
+            <script src="playlist.js"></script>
 </body>
 </html>

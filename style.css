@@ -7,7 +7,7 @@ body{
 }
 body{
 
-    background-color: #5F939A;
+    background-color: #065471;
 }
 a{
     text-decoration: none;
@@ -16,7 +16,7 @@ a{
 a:hover{
 
     text-decoration: underline;
-    color: rgb(131, 32, 207);
+    color: black;
     border-radius: 30px;
 }
 .wrapper{
@@ -32,10 +32,11 @@ a:hover{
     position: relative;
     width: 450px;
     backdrop-filter:blur(25px);
-    border: 2px solid #c6c3c3;
+    border: 2px solid #0a0808;
     border-radius: 15px;
     padding: 7.5rem 2.5rem 4rem 2.5rem; 
     color: black;
+    background-color: #065471;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
 }
 .login-head{
@@ -46,7 +47,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #c6c3c3;
+    background-color: rgb(11, 33, 56);
     width: 140px;
     height: 70px;
     border-radius: 0px 0px 20px 20px;
@@ -55,7 +56,7 @@ a:hover{
 .five img{
   display: flex;
   align-items: flex-start;
-  justify-content: flex-sta;
+  justify-content: flex-start;
   width: 300px;
   height: 100px;
 }
@@ -66,7 +67,7 @@ a:hover{
 }
 .login-head span{
       font-size: 35px;
-      color:black ;
+      color:rgb(242, 236, 236) ;
 }
 .login-head::before
 {
@@ -78,7 +79,7 @@ a:hover{
     left: -30px;
     border-top-right-radius: 50%;
     background: transparent;
-    box-shadow: 15px 0 0 0 #c6c3c3;
+    box-shadow: 15px 0 0 0 rgb(11, 33, 56);
 }
 .login-head::after
 {
@@ -90,20 +91,21 @@ a:hover{
     right: -30px;
     border-top-left-radius: 50%;
     background: transparent;
-    box-shadow: -15px 0 0 0 #c6c3c3;
+    box-shadow: -15px 0 0 0 rgb(11, 33, 56);
 }
 .input-box{
     position: relative;
     display: flex;  
     flex-direction: column;
     margin: 20px 0;
+    
 }
 .input-field{
       width: 100%;
       height: 55px;
       font-size: 20px;
       background-color: transparent;
-      color: black ;
+      color: rgb(99, 92, 92) ;
       padding-inline: 20px 10px;
       border: 2px solid #1e0606;
       border-radius: 50px ;

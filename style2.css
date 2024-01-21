@@ -38,7 +38,8 @@ margin-top: 20px;
 }
 .home{
     color: #ff0000;
-    text-decoration: underline black;
+    text-decoration: none;
+    
 }
 .sider .nav ul li a{
     counter-reset: b3b3b3;
@@ -50,7 +51,7 @@ margin-top: 20px;
 }
 .nav ul li a:hover,.nav ul li a:active,.nav ul li a:focus{
     color: #ff0000;
-    text-decoration: underline black;
+    text-decoration: none;
 }
 .sider .policy{
     bottom: 100px;
@@ -74,7 +75,7 @@ margin-top: 20px;
    text-decoration: none;
     font-size: 20px;
     color: red;
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 .contain{
     margin-left: 375px;
@@ -130,6 +131,7 @@ margin-top: 20px;
 .sparky{
     margin-left: 375px;
     padding: 20px 40px;
+    position: relative;
 }
 .sparky h2{
     color: #1a0404;
@@ -148,18 +150,29 @@ margin-top: 20px;
     min-width:200px;
     width: 190px;
     padding: 25px;
-    background-color: #181818;
+    background-color: rgb(11, 33, 56);
     border-radius: 10px;
     cursor: pointer;
     transition: all ease 0.4s;
 
+}
+iframe{
+    top:113px;
+    left: 375px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    display: inline;
 }
 .sparky .list .music:hover .play .icon{
     opacity: 1;
    transform: translateY(-20px);
 }
 .sparky .list .music:hover{
-background-color: #252525;
+background-color:#065471;
 }
 .sparky .list .music img{
     width: 100%;
@@ -192,6 +205,34 @@ img{
     white-space: nowrap;
     overflow: scroll;
 }
+.search{
+    position:absolute;
+    left:500px;
+    align-items: center;
+    height: 100px;
+    
+    /* color: transparent; */
+}
+.search .icon{
+    color: rgba(2, 8, 11, 0.921);
+    height: 100px;
+    position: absolute;
+    top: 16px;
+    right: 5px;
+    color: transparent;
+}
+#search{
+    font-size: 30px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: transparent;
+    border: 0;
+}
+#search::placeholder{
+    color: transparent;
+
+}
 p{
     color: aqua;
 }
@@ -204,4 +245,24 @@ p{
 .sparky hr{
     margin: 70px 0px 0px;
     border-color: #636363;
+}
+.list1  {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;  
+}
+.music1{
+    background-color:rgb(11, 33, 56) ;
+    border-radius: 40px;
+}
+.list1 h4{
+  text-align: center;
+  color: white;
+}
+.music1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding-top: 10px;
+
 }
